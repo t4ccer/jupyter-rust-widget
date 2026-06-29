@@ -1,0 +1,6 @@
+/.direnv/
+/.pre-commit-config.yaml
+/.ipynb_checkpoints/
+/target/
+/jupyter_counter_frontend/dist/
+/jupyter_counter_frontend/pkg/

@@ -1,0 +1,16 @@
+[workspace]
+resolver = "3"
+members = [
+        "jupyter_counter",
+        "jupyter_counter_types",
+        "jupyter_counter_frontend",
+        "jupyter_rust_widget_backend",
+        "jupyter_rust_widget_frontend",
+]
+
+[workspace.dependencies]
+pyo3 = { version = "0.25", features = ["extension-module"] }
+serde = { version = "1.0", features = [ "derive" ] }
+serde_json = { version = "1.0" }
+web-sys = {version = "0.3", features = ["Document", "Element", "HtmlElement", "Window", "Node", "HtmlButtonElement"]}
+wasm-bindgen = "0.2"

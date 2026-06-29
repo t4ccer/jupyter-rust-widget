@@ -1,0 +1,1 @@
+../jupyter_rust_widget_frontend/webpack.config.js

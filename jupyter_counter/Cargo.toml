@@ -1,0 +1,13 @@
+[package]
+name = "jupyter_counter"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "jupyter_counter"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3.workspace = true
+jupyter_counter_types = { path = "../jupyter_counter_types" }
+jupyter_rust_widget_backend = { path = "../jupyter_rust_widget_backend" }
